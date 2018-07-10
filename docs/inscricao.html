@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Inscrição</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66454501-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66454501-3');
+</script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">R Day</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="sobre.html">Sobre</a>
+</li>
+<li>
+  <a href="atividades.html">Atividades</a>
+</li>
+<li>
+  <a href="materiais.html">Materiais</a>
+</li>
+<li>
+  <a href="propostas.html">Propostas</a>
+</li>
+<li>
+  <a href="datas.html">Datas</a>
+</li>
+<li>
+  <a href="local.html">Local</a>
+</li>
+<li>
+  <a href="inscricao.html">Inscrição</a>
+</li>
+<li>
+  <a href="apoio.html">Apoio</a>
+</li>
+<li>
+  <a href="comissao.html">Comissão</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.facebook.com/leg.ufpr/">
+    <span class="fa fa-facebook fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.instagram.com/leg.ufpr/">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/LEG_UFPR">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/leg-ufpr/rday">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Inscrição</h1>
+
+</div>
+
+
+<div class="panel panel-warning">
+<div class="panel-heading">
+<strong>Atenção</strong>
+</div>
+<div class="panel-body">
+<ul>
+<li>As inscrições são <strong>gratuitas</strong>, portanto solicitamos que se inscrevam somente aqueles que <strong>realmente</strong> participarão do evento.</li>
+<li>O prazo máximo para inscrição é <del>22/04/2018</del> <strong>13/05/2018</strong>.</li>
+<li>Para se inscrever e participar do R Day, é necessário <strong>ler e concordar</strong> com os termos do <strong>código de conduta</strong> abaixo.
+</div></li>
+</ul>
+</div>
+<div id="codigo-de-conduta" class="section level2">
+<h2>Código de conduta</h2>
+<p>Todas as conferências endossadas pela <a href="https://www.r-project.org/foundation">The R Foundation</a> devem ter um código de conduta para garantir um ambiente livre de assédios para todos os participantes. Veja mais a respeito nesta <a href="https://www.r-project.org/behaviour.html">página</a>.</p>
+</div>
+<div id="codigo-de-conduta-do-r-day" class="section level2">
+<h2>Código de conduta do R Day</h2>
+<p>Todos os participantes, palestrantes, apoiadores e voluntários do R Day são obrigados a concordar com o seguinte código de conduta. Os organizadores deverão garantir os termos deste código ao longo do evento. Esperamos a cooperação dos participantes para ajudar a garantir um ambiente seguro para todos.</p>
+<div id="versao-rapida" class="section level3">
+<h3>Versão rápida</h3>
+<p>Os organizadores do R Day são dedicados a fornecer uma experiência de conferência sem assédio para todos, independentemente do sexo, identidade e expressão de gênero, idade, orientação sexual, deficiência, aparência física, tamanho corporal, raça, etnia ou religião (ou falta dela). Nós não toleramos o assédio aos participantes do R Day de qualquer forma. Linguagem sexual e imagens não são apropriadas para qualquer local do evento, incluindo conferências, tutoriais, apresentações, Twitter e outras mídias online. Os participantes do R Day que violarem essas regras podem ser sancionados ou expulsos da conferência.</p>
+</div>
+<div id="versao-longa" class="section level3">
+<h3>Versão longa</h3>
+<p>O assédio inclui comentários verbais ofensivos relacionados ao gênero, identidade e expressão de gênero, idade, orientação sexual, deficiência, aparência física, tamanho corporal, raça, etnia, religião, imagens sexuais em espaços públicos, intimidação deliberada, perseguição, seguimento, assédio de fotografia ou gravação, interrupção sustentada de conversações ou outros eventos, contato físico inapropriado e atenção sexual indesejável.</p>
+<p>Os participantes solicitados à interromper qualquer comportamento de assédio, deverão cumprir imediatamente.</p>
+<p>Os apoiadores também estão sujeitos à política anti-assédio. Em particular, os apoiadores não devem usar imagens, atividades ou outros materiais sexualizados.</p>
+<p>Se um participante apresentar comportamento de assédio, os organizadores do R Day podem tomar as medidas que considerem adequadas, incluindo alertar o infrator ou a expulsão do evento.</p>
+<p>Se você está sendo assediado, observou que alguém está sendo assediado ou tem outras preocupações, entre em contato com um membro da comissão organizadora do R Day imediatamente.</p>
+<p>Os organizadores do R Day estarão dispostos em ajudar os participantes a entrar em contato com a segurança do Campus ou com a aplicação da lei local, fornecer escoltadores ou, de outra forma, ajudar aqueles que sofrem de assédio para se sentirem seguros durante a vigência do evento.</p>
+<p>Esperamos que os participantes sigam essas regras em todas as etapas do evento (incluindo todas as atividades e <em>coffee break</em>).</p>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<strong>Formulário de inscrição</strong>
+</div>
+<div class="panel-body">
+<p><del>A inscrição no R Day deve ser feita através deste formulário.</del></p>
+Inscrições encerradas!
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
